@@ -1,4 +1,10 @@
-# Java
+# Java academy
+
+## Course channels
+
+[Moodle](https://moodle.jug.bg)  
+[Slack](https://app.slack.com/client/T04UKPJS1L5/C04U863VBHD)  
+[YouTube](https://www.youtube.com/@bgjug)  
 
 ## Setup Java environment with Docker
 
@@ -44,7 +50,7 @@ docker container run -it \
 
 ## Compile and run a Java program within a running dev Java container
 
-[HelloWorld.java](./HelloWorld.java)
+[HelloWorld.java](./java-fundamentials/HelloWorld.java)
 ```
 class HelloWorld {
   public static void main(String[] args) {
@@ -55,8 +61,9 @@ class HelloWorld {
 
 Compile and run
 ```
-javac -d ./bin/ HelloWorld.java
-java -cp ./bin/ HelloWorld
+cd ~/java-academy/java-fundamentials
+javac HelloWorld.java
+java HelloWorld
 ```
 
 ## Connect VScode directly to the dev Java container
